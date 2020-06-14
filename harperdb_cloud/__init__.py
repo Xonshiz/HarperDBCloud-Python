@@ -1,5 +1,5 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 
-import harperdb_cloud
-import libs
+from .harperdb_cloud import HarperDbCloud
+from . import libs

@@ -1,12 +1,12 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 
-import libs
+from . import libs
 from base64 import b64encode
 
 
 class HarperDbCloud(object):
-    def __init__(self, argv, username, password, instance_url):
+    def __init__(self, username, password, instance_url):
         self.errors = []
         if not username or not password or not instance_url:
             self.errors.append({

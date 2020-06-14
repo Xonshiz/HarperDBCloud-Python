@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name='HarperDBCloud Python SDK',
-    version='2020.06.15',
+    version='2020.06.15.04',
     description='HarperDB Cloud Python SDK.',
     author='Xonshiz',
     author_email='xonshiz@gmail.com',
